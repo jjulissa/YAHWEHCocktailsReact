@@ -23,7 +23,7 @@ export default function Contact() {
                 <img className="w-14 pb-5" src={reloj} alt="reloj" />
             </aside>
 
-            <div className="bg-slate-300 p-10 gap-4 absolute top-[90%] right-[14.50%]"> 
+            <div className="bg-slate-300 p-10 absolute top-[90%] right-[14.5%] h-2/6 flex flex-col gap-5"> 
                 <h1>Info</h1>
                 <div className="flex gap-4">
                     <img className="w-5" src={gmail} alt="fotoGmail" />

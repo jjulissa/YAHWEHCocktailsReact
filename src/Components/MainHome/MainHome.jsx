@@ -8,7 +8,7 @@ export default function MainHome() {
     console.log(cocktails);
 
     return ( 
-        <main className="flex gap-6 flex-wrap justify-center items-center m-12"> 
+        <main className="grid grid-cols-2 gap-8 m-8 justify-center items-center"> 
             { 
                 cocktails.map((trago, i) => { 
                     return <EveryDrinks 
